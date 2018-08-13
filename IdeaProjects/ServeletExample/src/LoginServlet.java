@@ -12,6 +12,7 @@ public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         System.out.println("Inside the do post method");
+        System.out.println("Just wanted to say hi");
 
         PrintWriter printWriter =  resp.getWriter();
 
