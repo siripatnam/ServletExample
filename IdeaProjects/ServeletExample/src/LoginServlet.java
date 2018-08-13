@@ -13,6 +13,7 @@ public class LoginServlet extends HttpServlet {
 
         System.out.println("Inside the do post method");
         System.out.println("Just wanted to say hi");
+        System.out.println("hello");
 
         PrintWriter printWriter =  resp.getWriter();
 
